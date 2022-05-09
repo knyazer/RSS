@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <title>Hello World!</title>
+        <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="top-wrapper">
+                <div class="canvas"><canvas id="canvas"></canvas></div>
+                <div class="settings">
+                    <div class="settings-header">
+                        <div class="text-wrapper">Settings</div>
+                    </div>
+
+                    <div class="settings-menu">
+                        <div class="settings-button white">Basic</div>
+                        <div class="settings-button white">Advanced</div>
+                    </div>
+
+                    <div class="settings-wrapper">
+                        <div class="setter">
+                            <div class="setter-text">Step</div>
+                            <input type="text" value="0.1">
+                        </div>
+
+                        <div class="setter">
+                            <div class="setter-text">Friction</div>
+                            <input type="text" value="0.678">
+                        </div>
+
+                        <div class="setter">
+                            <div class="setter-text">Restitution</div>
+                            <input type="text" value="0.446">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logs">
+                <div class="logs-header">
+                    <div class="button white">Log</div>
+                    <div class="button yellow">Warning</div>
+                    <div class="button red">Error</div>
+                </div>
+                <div class="logs-area-wrapper">
+                    <div class="logs-area">
+                        [118.53]    First log ever <br>
+                        [119.234]   Bananas <br>
+                        [125.4]     Arrrr I am broken design <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left">Loading..</div>
+            <div class="right">(Danger icon)</div>
+        </div>
+
+        <script src="renderer.js"></script>
+    </body>
+</html>

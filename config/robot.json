@@ -1,0 +1,9 @@
+{
+    "shape_x": [-0.1, -0.1, 0.1, 0.1],
+    "shape_y": [0.1, -0.1, -0.1, 0.1],
+    "friction": 0.1,
+    "static": false,
+    "mass": 2.1,
+    "ghost": false,
+    "color": "#444"
+}

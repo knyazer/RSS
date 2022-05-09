@@ -1,0 +1,9 @@
+{
+    "shape_x": [-0.6, -0.6, 0.6, 0.6],
+    "shape_y": [0.6, -0.6, -0.6, 0.6],
+    "friction": 0,
+    "static": false,
+    "ghost": false,
+    "stroke-color": "#aaa",
+    "stroke-width": 0.02
+}

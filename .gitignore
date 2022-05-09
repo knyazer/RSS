@@ -1,0 +1,5 @@
+.vscode
+infer-out
+**/build
+**/node_modules
+!**.md
