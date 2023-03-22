@@ -28,6 +28,7 @@
         "../../engine/source/custom/SegmentShape.cpp",
         "../../engine/source/env/World.cpp"
        ],
+      'cflags_cc': ['-fexceptions'],
       'include_dirs': [
           '../../engine/',
           '../engine_wrapper/',
