@@ -1,7 +1,7 @@
 # RSS
 Rapid Simple (Soccer) Simulator
 
-It is an attempt to make a convenient and really slimple to use robotics simulator. Under development for now
+It is an attempt to make a convenient and really simple to use robotics simulator. Under development for now. Mostly directed towards Robocup Junior Soccer leagues
 
 ## What to do
 
@@ -24,12 +24,3 @@ cd /workspace/app
 sh start.sh
 ```
 Then you will see the GUI and some logs in console, which show that C++ addons loaded succesfully. There could be a huge number of errors, because of the docker, you can simply ignore them.
-
-
-### TODOs
-* Remove unnecessary AABBs from shapes
-* Add support of complicated (combined) convex shapes in Shape class
-* Precise collision detection (not with precision of one step)
-* Impulse based collision resolution
-* Angular velocities support
-* Make GUI better with Mantine, probably (lowest priority for now)
